@@ -14,12 +14,7 @@
 	  <div id="app"> </div>
 	  <div id="rightContainer"></div>
 	  <div id="statistic"></div>
-
-	  <script type='text/javascript' src='@routes.Assets.at("javascripts/jquery.min.js")'></script>
-	  <script type='text/javascript' src='@routes.Assets.at("javascripts/jquery.onscreen.min.js")'></script>
 	  <script type='text/javascript' src='@routes.Assets.at("javascripts/mithril.min.js")'></script>
-	  <script type='text/javascript' src='@routes.Assets.at("javascripts/mithril-ui-router.js")'></script>
-	  <script type='text/javascript' src='@routes.Assets.at("javascripts/app-jquery.js")'></script>
 	  <script type='text/javascript' src='@routes.Assets.at("javascripts/app.js")'></script>
 	  @content
   </body>
