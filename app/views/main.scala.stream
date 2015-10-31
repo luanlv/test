@@ -1,0 +1,31 @@
+@(content: ui.HtmlStream)
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Integration of Play and React</title>
+	  <meta charset="utf-8">
+	  <base href="/">
+	  <link rel="stylesheet" href="@routes.Assets.at("css/main.css")">
+  </head>
+  <body>
+	  <div id="nav"> </div>
+	  <div id="app"> </div>
+	  <div id="rightContainer"></div>
+	  <div id="statistic"></div>
+  </body>
+
+
+	<script type='text/javascript' src='@routes.Assets.at("javascripts/jquery.min.js")'></script>
+	<script type='text/javascript' src='@routes.Assets.at("javascripts/jquery.onscreen.min.js")'></script>
+	<script type='text/javascript' src='@routes.Assets.at("javascripts/mithril.min.js")'></script>
+	<script type='text/javascript' src='@routes.Assets.at("javascripts/mithril-ui-router.js")'></script>
+	<script type='text/javascript' src='@routes.Assets.at("javascripts/app-jquery.js")'></script>
+	<script type='text/javascript' src='@routes.Assets.at("javascripts/app2.js")'></script>
+
+	<script>
+
+
+	</script>
+</html>

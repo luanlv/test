@@ -1,0 +1,123 @@
+body {
+  min-height: 3000px;
+}
+
+.config{
+  background-color: #3c7b9b;
+  height:100px;
+  width:300px;
+}
+
+#appeared {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+#disappeared {
+  position: fixed;
+  top: 20px;
+  right: 0;
+}
+
+.right {
+  width: 260px;
+  height: 280px;
+  position: fixed;
+  /*right: 300px;*/
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+.comment-right{
+  overflow: auto;
+  width: 200px;
+  float: right;
+  text-align: right;
+}
+
+.comment-left{
+  overflow: auto;
+  width: 200px;
+  float: left;
+}
+
+.mes{
+  border: 1px solid #ddd;
+  border-radius: 3px 3px 3px 3px;
+  margin: 5px;
+  padding: 5px;
+  background: lightblue;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+textarea {
+  resize: none;
+}
+
+#dock-bot{
+  position: fixed;
+  height: 28px;
+  left: auto;
+  line-height: 16px;
+  right: 250px;
+  text-align: left;
+  bottom: 0;
+}
+
+.chatWr{
+  position: relative;
+  height: 28px;
+  margin-right: 5px;
+  float: right;
+}
+.w1{
+  width: 260px;
+}
+.w2{
+  width: 160px;
+}
+
+.chatboxWr{
+  /*background: cadetblue;*/
+  right: 0;
+  width: 260px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+}
+
+.chat-box{
+  width: 100%;
+  overflow:auto;
+  overflow-x:hidden;
+  height: 225px;
+  position:relative;
+  background: aliceblue;
+}
+
+.new-comment{
+  width: 98%;
+  height: 42px;
+  position: absolute;
+  bottom: 2px;
+}
+
+.chat-title{
+  text-align: center;
+  background: dodgerblue;
+  cursor: pointer;
+  height: 22px;
+}
+
+.chat-title2{
+  text-align: center;
+  background: dodgerblue;
+  cursor: pointer;
+  height: 28px;
+}

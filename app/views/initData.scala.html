@@ -1,0 +1,8 @@
+@(data: String, tpe: String)
+
+
+var initData = {};
+	initData.@{tpe} = {
+	server: true,
+	data: @Html(data)
+};

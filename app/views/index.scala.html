@@ -1,0 +1,10 @@
+@(content: Html = Html(""), data: String = "")()
+
+@main("React.js integrated with Play", content)
+
+<script>/* <![CDATA[ */
+var initData = initData || {};
+initData = {
+data: @Html(data)
+};
+ /* ]]> */</script>

@@ -1,0 +1,17 @@
+@(title: String, content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+    </head>
+    <body>
+        <div id="content">@content</div>
+        <p>HTML from the server</p>
+    </body>
+    <script type='text/javascript' src='@routes.Assets.at("lib/react/react.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.at("lib/jquery/jquery.min.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.at("javascripts/output.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.at("javascripts/main.js")'></script>
+</html>
