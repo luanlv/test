@@ -1,8 +1,10 @@
 @(data: String, tpe: String)
 
-
+<script >/* <![CDATA[ */
 var initData = {};
 	initData.@{tpe} = {
 	server: true,
 	data: @Html(data)
 };
+m.mount(gId('app'), Dashboard);
+/* ]]> */</script>
